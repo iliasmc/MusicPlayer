@@ -1,5 +1,3 @@
-package LearningJava.MusicPlayer;
-
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
@@ -13,7 +11,7 @@ public class StartScreen extends JFrame implements ActionListener {
 
     StartScreen() throws Exception {
         // Opening image
-        String directoryLocation = "C:\\Users\\ilias\\IdeaProjects\\Java Project\\src\\LearningJava\\MusicPlayer\\IMAGES\\MusicPlayerFrontPage.png";
+        String directoryLocation = "";
         ImageIcon image = new ImageIcon(directoryLocation);
         Border border = BorderFactory.createLineBorder(new Color(0x396DA5), 5);
 
