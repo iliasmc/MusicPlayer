@@ -1,5 +1,3 @@
-package LearningJava.MusicPlayer;
-
 import javax.sound.sampled.*;
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
@@ -36,8 +34,8 @@ public class MusicPlayerClass extends JFrame implements ChangeListener, ActionLi
     boolean firstCall = true;
 
     // Add the path to the folder
-    String backgroundImageDirectory = "C:\\Users\\ilias\\OneDrive\\Desktop\\imagesfolder.GIF4";
-    String songListPath = "C:\\Users\\ilias\\IdeaProjects\\Java Project\\src\\LearningJava\\MusicPlayer\\SONGS2";
+    String backgroundImageDirectory = "";
+    String songListPath = "";
 
 
     // Buttons
