@@ -12,7 +12,7 @@ Make sure you have these two folders:
 >1. A folder with at least one .gif , .jpg or .png file(s) to use as backgrounds.
 >2. A folder where you keep your .wav songs (which can be downloaded using any .wav converter found online).
 
-In ***StartScreen.java*** set *directoryLocation (line 16)* to the directory of the image you want displayed on the starting screen.<br>
+In ***StartScreen.java*** set *directoryLocation (line 14)* to the directory of the image you want displayed on the starting screen.<br>
 
 In ***MusicPlayerClass.java*** set *backgroundImageDirectory (line 37)* to your path of the background image you want to use.
 
